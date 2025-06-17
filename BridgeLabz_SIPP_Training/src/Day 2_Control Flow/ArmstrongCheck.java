@@ -10,7 +10,6 @@ public class ArmstrongCheck {
             sum += digit * digit * digit;
             original /= 10;
         }
-
         System.out.println(number + (sum == number ? " is an Armstrong Number" : " is not an Armstrong Number"));
     }
 }
