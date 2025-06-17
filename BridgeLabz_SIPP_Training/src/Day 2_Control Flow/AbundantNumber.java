@@ -9,6 +9,7 @@ public class AbundantNumber {
                 sum += i;
         }
 
+        
         if (sum > number)
             System.out.println(number + " is an Abundant Number");
         else
