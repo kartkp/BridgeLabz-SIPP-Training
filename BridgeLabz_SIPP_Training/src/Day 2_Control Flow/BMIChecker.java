@@ -9,6 +9,7 @@ public class BMIChecker {
 
         System.out.println("BMI: " + bmi);
 
+        
         if (bmi < 18.5)
             System.out.println("Underweight");
         else if (bmi < 24.9)
