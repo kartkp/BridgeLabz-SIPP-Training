@@ -5,7 +5,6 @@ public class PalindromeNumberChecker {
         java.util.Scanner sc = new java.util.Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
-
         int temp = num;
         int count = 0;
         while (temp != 0) {
