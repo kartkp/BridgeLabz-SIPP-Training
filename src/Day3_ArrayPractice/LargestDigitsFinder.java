@@ -8,6 +8,7 @@ public class LargestDigitsFinder {
         System.out.print("Enter a number: ");
         int number = sc.nextInt();
 
+        
         int maxDigit = 10;
         int[] digits = new int[maxDigit];
         int index = 0;
