@@ -6,7 +6,6 @@ public class StudentGradeCalculator {
 
         System.out.print("Enter number of students: ");
         int n = sc.nextInt();
-
         int[][] marks = new int[n][3];
         double[] percentage = new double[n];
         String[] grades = new String[n];
