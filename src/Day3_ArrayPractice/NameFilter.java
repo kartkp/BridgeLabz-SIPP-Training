@@ -6,6 +6,7 @@ public class NameFilter {
         int[] age = new int[3];
         int[] height = new int[3];
         String[] names = {"Amar", "Akbar", "Anthony"};
+        
 
         for (int i = 0; i < 3; i++) {
             System.out.print("Enter age of " + names[i] + ": ");
