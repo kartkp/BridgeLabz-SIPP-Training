@@ -7,7 +7,6 @@ public class StaticAndNonStatic {
         StaticAndNonStatic obj = new StaticAndNonStatic();
         obj.displayVariables();
     }
-
     public void displayVariables() {
         System.out.println("Static Variable: " + staticVariable);
         System.out.println("Non-Static Variable: " + nonStaticVariable);
