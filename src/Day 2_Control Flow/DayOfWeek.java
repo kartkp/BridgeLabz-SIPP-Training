@@ -7,7 +7,6 @@ public class DayOfWeek {
             m += 12;
             y--;
         }
-
         int k = y % 100;
         int j = y / 100;
 
