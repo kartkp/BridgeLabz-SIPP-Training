@@ -5,7 +5,6 @@ public class GradeCalculator {
         int physics = sc.nextInt();
         int chemistry = sc.nextInt();
         int maths = sc.nextInt();
-
         double average = (physics + chemistry + maths) / 3.0;
         String grade, remark;
 
