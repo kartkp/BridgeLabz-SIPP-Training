@@ -8,6 +8,7 @@ public class GreatestFactorFor {
             if (number % i == 0) {
                 greatestFactor = i;
                 break;
+                
             }
         }
         System.out.println("Greatest factor of " + number + " is: " + greatestFactor);
