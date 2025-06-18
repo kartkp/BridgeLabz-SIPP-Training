@@ -8,12 +8,12 @@ public abstract class ReverseArrayandSum {
         System.out.print("Enter columns: ");
         int cols = sc.nextInt();
 
+
         int[][] matrix = new int[rows][cols];
         System.out.println("Enter matrix values:");
         for (int i = 0; i < rows; i++)
             for (int j = 0; j < cols; j++)
                 matrix[i][j] = sc.nextInt();
-
         int[] arr = new int[rows * cols];
         int index = 0;
         for (int i = 0; i < rows; i++)
