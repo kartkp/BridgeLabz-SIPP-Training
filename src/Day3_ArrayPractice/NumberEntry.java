@@ -6,6 +6,7 @@ public class NumberEntry {
         double[] nums = new double[10];
         double total = 0.0;
         int index = 0;
+        
 
         while (true) {
             System.out.print("Enter a number: ");
