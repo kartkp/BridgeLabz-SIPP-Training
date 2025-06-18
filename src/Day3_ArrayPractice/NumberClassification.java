@@ -9,6 +9,7 @@ public class NumberClassification {
             System.out.print("Enter number " + (i + 1) + ": ");
             nums[i] = sc.nextInt();
         }
+        
 
         for (int num : nums) {
             if (num > 0) {
