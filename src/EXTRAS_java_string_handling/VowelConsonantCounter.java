@@ -9,7 +9,6 @@ public class VowelConsonantCounter {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String input = sc.nextLine().toLowerCase();
-
         int vowels = 0, consonants = 0;
 
         for (int i = 0; i < input.length(); i++) {
