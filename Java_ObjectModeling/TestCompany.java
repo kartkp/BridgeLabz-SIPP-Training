@@ -16,7 +16,6 @@ class Department {
         employees.add(e);
     }
 }
-
 class Company {
     String companyName;
     ArrayList<Department> departments = new ArrayList<>();
