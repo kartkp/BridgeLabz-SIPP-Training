@@ -1,7 +1,6 @@
 package Java_ObjectModeling;
 
 // import java.util.ArrayList;
-
 class Professor {
     String name;
     Professor(String n) { name = n; }
@@ -19,12 +18,10 @@ class StudentUMS {
         System.out.println(name + " enrolled in " + c.name);
     }
 }
-
 class CourseUMS {
     String name;
     CourseUMS(String n) { name = n; }
 }
-
 public class TestUniversitySystem {
     public static void main(String[] args) {
         StudentUMS s = new StudentUMS("Neha");
