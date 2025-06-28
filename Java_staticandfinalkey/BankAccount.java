@@ -1,4 +1,4 @@
-package staticandfinalkey;
+package Java_staticandfinalkey;
 
 class BankAccount {
     static String bankName = "SBI";

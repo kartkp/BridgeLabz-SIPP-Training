@@ -1,4 +1,4 @@
-package staticandfinalkey;
+package Java_staticandfinalkey;
 
 class Book {
     static String libraryName = "Central Library";
