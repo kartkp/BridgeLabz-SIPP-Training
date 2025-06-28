@@ -14,7 +14,6 @@ class Order {
         products.add(p);
     }
 }
-
 class Customer {
     String name;
     Customer(String n) { name = n; }
