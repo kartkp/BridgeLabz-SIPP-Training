@@ -12,7 +12,6 @@ public class CoffeeCounterChronicles {
                 System.out.println("Cafe closing. Goodbye!");
                 break;
             }
-
             System.out.print("Enter quantity: ");
             int quantity = sc.nextInt();
 
