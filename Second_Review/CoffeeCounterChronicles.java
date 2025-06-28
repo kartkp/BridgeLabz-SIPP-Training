@@ -8,7 +8,6 @@ public class CoffeeCounterChronicles {
         while (true) {
             System.out.print("Enter coffee type (espresso/latte/cappuccino) or 'exit' to stop: ");
             String coffeeType = sc.next();
-
             if (coffeeType.equalsIgnoreCase("exit")) {
                 System.out.println("Cafe closing. Goodbye!");
                 break;
