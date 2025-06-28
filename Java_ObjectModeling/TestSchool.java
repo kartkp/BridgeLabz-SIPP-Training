@@ -1,7 +1,6 @@
 package Java_ObjectModeling;
 
 import java.util.ArrayList;
-
 class Course {
     String courseName;
     ArrayList<Student> enrolledStudents = new ArrayList<>();
@@ -11,7 +10,6 @@ class Course {
         enrolledStudents.add(s);
     }
 }
-
 class Student {
     String name;
     ArrayList<Course> courses = new ArrayList<>();
@@ -28,7 +26,6 @@ class Student {
         }
     }
 }
-
 class School {
     String schoolName;
     ArrayList<Student> students = new ArrayList<>();
@@ -38,7 +35,6 @@ class School {
         students.add(st);
     }
 }
-
 public class TestSchool {
     public static void main(String[] args) {
         School sch = new School("Greenwood High");
