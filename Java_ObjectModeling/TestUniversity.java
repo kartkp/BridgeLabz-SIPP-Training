@@ -26,13 +26,11 @@ class University {
         faculties.add(f);
     }
 }
-
 public class TestUniversity {
     public static void main(String[] args) {
         University u = new University("MIT");
         DepartmentU d1 = new DepartmentU("Computer Science");
         Faculty f1 = new Faculty("Dr. Kumar");
-
         u.addDepartment(d1);
         u.addFaculty(f1);
     }
