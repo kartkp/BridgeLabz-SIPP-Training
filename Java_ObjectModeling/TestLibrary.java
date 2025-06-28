@@ -9,7 +9,6 @@ class Book {
         author = a;
     }
 }
-
 class Library {
     String name;
     ArrayList<Book> books = new ArrayList<>();
@@ -19,7 +18,6 @@ class Library {
         books.add(b);
     }
 }
-
 public class TestLibrary {
     public static void main(String[] args) {
         Book b1 = new Book("Harry Potter", "J.K. Rowling");
@@ -27,7 +25,6 @@ public class TestLibrary {
 
         Library lib1 = new Library("City Library");
         Library lib2 = new Library("Town Library");
-
         lib1.addBook(b1);
         lib2.addBook(b1);
         lib2.addBook(b2);
