@@ -24,6 +24,7 @@ class Thermostat extends Device {
     }
 }
 
+
 public class SmartHome {
     public static void main(String[] args) {
         Thermostat t = new Thermostat("TH001", "ON", 24);
