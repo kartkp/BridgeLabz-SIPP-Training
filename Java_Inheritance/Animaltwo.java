@@ -39,7 +39,7 @@ class Bird extends Animal {
     }
 }
 
-public class TestAnimal {
+public class Animaltwo {
     public static void main(String[] args) {
         Dog d = new Dog("Tommy", 3);
         Cat c = new Cat("Kitty", 2);
