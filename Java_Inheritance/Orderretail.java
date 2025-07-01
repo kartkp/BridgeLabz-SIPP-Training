@@ -34,7 +34,7 @@ class DeliveredOrder extends ShippedOrder {
     }
 }
 
-public class Ordertwo {
+public class Orderretail {
     public static void main(String[] args) {
         DeliveredOrder d = new DeliveredOrder(101, "01-07-2025", "TRK123", "03-07-2025");
         System.out.println(d.getOrderStatus());
