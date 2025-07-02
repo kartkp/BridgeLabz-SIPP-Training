@@ -1,4 +1,5 @@
 package Third_Review;
+
 public class Ride {
     public double distance;
     public int time;
