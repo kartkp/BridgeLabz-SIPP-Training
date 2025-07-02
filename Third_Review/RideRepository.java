@@ -1,7 +1,6 @@
 package Third_Review;
 import java.util.HashMap;
 import java.util.Map;
-
 public class RideRepository {
     private Map<String, Ride[]> userRides = new HashMap<>();
 
