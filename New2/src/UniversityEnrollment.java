@@ -12,9 +12,9 @@
 // oops: 
 // encapsulation: secure handling of grades
 // inheritance: undergraduate, postgraduate extend student
+
 import java.util.*;
 
-// interface graded with method assignGrade()
 interface Graded {
     void assignGrade(String course, int grade);
 }
@@ -40,7 +40,7 @@ public class UniversityEnrollment implements Graded {
     }
     public void assignGrade(String course, int grade) {
         if (!courses.contains(course)) {
-            System.out.println("Cannot assign grade, " + name + " not enrolled in " + course);
+            System.out.println("Cannot assign grade, " + name + " not got in " + course);
             return;
         }
         int idx = gradeCourses.indexOf(course);
@@ -51,7 +51,7 @@ public class UniversityEnrollment implements Graded {
             gradeValues.add(grade);
         }
         calGPA();
-        System.out.println("Grade " + grade + " assigned in " + course + " to " + name);
+        System.out.println("Grade " + grade + " got in " + course + " to " + name);
     }
     private void calGPA() {
         if (gradeValues.size() == 0) {
