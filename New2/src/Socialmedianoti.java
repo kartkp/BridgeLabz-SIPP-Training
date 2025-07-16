@@ -52,7 +52,6 @@ public class Socialmedianoti {
         u.addNotification(new LikeNotification("Anuj"));
         u.addNotification(new CommentNotification("Raghav", "First post!"));
         
-        
         u.displayFeed();
     }
 }

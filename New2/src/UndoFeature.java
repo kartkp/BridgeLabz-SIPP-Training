@@ -71,25 +71,6 @@ class TextEditor {
 	    }
 	}
 
-	    
-
-
-
-
-// Scenario 3: Undo Feature in Text Editor
-
-// Use Case: Every edit is stored and can be undone step-by-step.
-
-// Why LinkedList? LIFO structure fits Stack backed by LinkedList.
-
-// OOP Concepts:
-
-// Encapsulation: Each change is encapsulated as a state.
-
-// Abstraction: Undo/redo methods simplify complexity.
-
-// Inheritance: State can be a base class for text/image editing.
-
 
 	// Scenario 3: Undo Feature in Text Editor
 
