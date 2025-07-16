@@ -42,7 +42,7 @@ public class IceCreamRush {
             }
         }
 
-        System.out.println("\nFlavours sorted by popularity-");
+        System.out.println("\nsorted by popularity-");
         for (int i = 0; i < 8; i++) {
             System.out.println(flvr[i].name + " sold " + flvr[i].sales);
         }
