@@ -2,6 +2,7 @@ package AIDrivenResumeScreeningSystem;
 
 import java.util.*;
 public class ResumeScreening {
+    
     public static void main(String[] args) {
         List<Resume<? extends JobRole>> resumeList = new ArrayList<>();
         resumeList.add(new Resume<>("Amit", new SoftwareEngineer()));
