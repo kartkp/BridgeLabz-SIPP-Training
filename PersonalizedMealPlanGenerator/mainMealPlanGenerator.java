@@ -8,7 +8,6 @@ public class mainMealPlanGenerator {
         Meal<KetoMeal> ketoMeal = new Meal<>(new KetoMeal());
 
         System.out.println("Meal Plan Generator:\n");
-
         MealPlanGenerator.generatePlan(vegMeal.getPlan());
         MealPlanGenerator.generatePlan(veganMeal.getPlan());
         MealPlanGenerator.generatePlan(ketoMeal.getPlan());
