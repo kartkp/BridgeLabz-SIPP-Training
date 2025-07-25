@@ -1,4 +1,4 @@
-package JavaCollections;
+package JavaCollections.ListInterface;
 import java.util.*;
 
 public class RemoveDuplicates {
