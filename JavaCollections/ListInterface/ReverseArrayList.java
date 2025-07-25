@@ -15,5 +15,6 @@ public class ReverseArrayList {
             right--;
         }
         System.out.println(list);
+        
     }
 }
