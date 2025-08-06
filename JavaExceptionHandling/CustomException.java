@@ -16,7 +16,6 @@ public class CustomException {
             System.out.println("Access granted!");
         }
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your age: ");
