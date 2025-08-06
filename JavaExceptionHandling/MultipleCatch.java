@@ -7,6 +7,7 @@ public class MultipleCatch {
         int[] arr = null;
         Scanner sc = new Scanner(System.in);
 
+        
         try {
             arr = new int[]{10, 20, 30, 40};
             System.out.print("Enter index: ");
