@@ -1,0 +1,37 @@
+[
+  {
+    "firstname": "Aarav",
+    "lastname": "Sharma",
+    "fullname": "Aarav Sharma"
+  },
+  {
+    "firstname": "Diya",
+    "lastname": "Singh",
+    "fullname": "Diya Singh"
+  },
+  {
+    "firstname": "Rohan",
+    "lastname": "Patel",
+    "fullname": "Rohan Patel"
+  },
+  {
+    "firstname": "Priya",
+    "lastname": "Mishra",
+    "fullname": "Priya Mishra"
+  },
+  {
+    "firstname": "Vikram",
+    "lastname": "Kumar",
+    "fullname": "Vikram Kumar"
+  },
+  {
+    "firstname": "Ananya",
+    "lastname": "Reddy",
+    "fullname": "Ananya Reddy"
+  },
+  {
+    "firstname": "Arjun",
+    "lastname": "Naik",
+    "fullname": "Arjun Naik"
+  }
+]
